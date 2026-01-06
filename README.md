@@ -1,12 +1,14 @@
 # meal_plan
 
 # プロジェクト概要 / Project Overview 
-このコードは、Anthropic社のAIモデル **Claude Opus 4.5** を使用して生成されています。
+JavaScriptの学習のために作成した夕飯の献立プランをランダムに出力するプログラムです。
+このコードは、献立の定義にMicrosoft社のAIモデル**Microsoft 365 Copilot** を使用して生成されています。
+このコードは、ファイル生成にAnthropic社のAIモデル **Claude Opus 4.5** を使用して生成されています。
 
 ## AI生成コードについて / About AI-Generated Code
 - **生成ツール / Generation Tool**: Claude Opus 4.5
 - **生成日 / Generation Date**: 2026-01-06
-- **プロンプト概要 / Prompt Summary**: 「JavaScriptのrand()機能を実装するコードを生成」  
+- **プロンプト概要 / Prompt Summary**: 「定義した献立ファイルを元にして、JavaScriptのround()関数で各カテゴリを表示するコードを生成」  
   "Generate code to implement [specific feature]"
 
 ### 注意事項 / Disclaimer
@@ -20,8 +22,9 @@
 ---
 
 ## AI生成部分のファイル一覧 / Files Containing AI-Generated Code
-- `src/ai_generated_module.py`
-- `utils/ai_helper.py`
+- `index.html`
+- `style.cssy`
+- `script.js`
 
 ---
 
